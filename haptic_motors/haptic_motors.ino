@@ -21,7 +21,7 @@ void setup() {
 
   Serial.println("Initial...");
 
-  // // Initial 1st Motor
+  // // Initial the motor with the least number
   tcaselect(2);
   if (! drv1.begin()) {
     Serial.println("Could not find DRV2605_1");
